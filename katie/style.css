@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Cairo';
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+h1:hover {
+	color: grey;
+}
+
+p:hover {
+	color: grey;
+}
+
+img {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+img:hover {
+	transform: perspective(2);
+	transition-duration: 2000ms;
+}
+
+body {
+	font-family: Cairo, Helvetica, Papyrus, fantasy;
+	background-image: url("talltree.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 500px;
+	
+}
+
+.header {
+	background-color: lightgrey;
+}
+

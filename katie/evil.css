@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Black+Ops+One';
+
+body{
+	font-family: 'Black Ops One', cursive;
+	background-color: #681208;
+	font-size: 36px;
+	background-image: url("spider.png");
+	zbackground-repeat: no-repeat;
+	zbackground-position: right top;
+	color: 	#681208;
+}
+
+img {
+	border-radius: 0px;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: 'Black Ops One';
+	color: 	#681208;
+}
+
+h1:after {
+	content: " to your death!";
+}
+
+
+img:hover {
+	transform: scale(0,0);
+	transition-duration: 60ms;
+}
+
+a:before {
+	content: "Go away! ";
+}
+
+a {
+	color: #086812;
+}

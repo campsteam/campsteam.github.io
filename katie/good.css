@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo';
+
+body {
+	background-image: url("cupcake.jpeg");
+	background-position: right top;
+	font-family: 'Baloo';
+	font-size: 26px;
+	color: #645dab;
+}
+
+img {
+	border-radius: 50px;
+	transform: rotate(7deg);
+	border: 5px solid #BB4444;
+}
+
+img:hover {
+	transform: rotate(0deg);
+	transition-duration: 200ms;
+}
+
+h1 {
+	font-family: 'Baloo';
+	font-size: 60px;
+	color: 	#282a6a;
+}
+
+h1:before {
+	content: "Well ";
+}
+
+h1:after {
+	content: ", cupcake!";
+}
+
+p:hover {
+	color: #ffbb55;
+}
+
+a {
+	text-decoration: none;
+	color: #f465e0;
+}
