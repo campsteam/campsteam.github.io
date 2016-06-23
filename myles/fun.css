@@ -1,0 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Lalezar';
+h1 {
+	color: #3AA8C1;
+	font-family: 'Lalezar';
+
+}
+
+h2 {
+	color: #3AA8C1;
+	font-family: 'Lalezar';
+}
+
+body {
+	background-image: url("seven.jpg");
+	background-size: 100%;
+	color: #cae1ff;
+}
