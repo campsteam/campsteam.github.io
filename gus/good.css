@@ -1,9 +1,0 @@
-@import 'https://fonts.googleapis.com/css?family=Baloo';
-
-body{
-	background-image: url("cat.png");
-	background-repeat: no-repeat;
-	font-family: 'Baloo';
-}
-
-img{border-radius:100px}
