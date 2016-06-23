@@ -1,0 +1,78 @@
+h1 {
+	color: #f05db9;
+}
+
+h2 {
+	color: #00BFFF;
+}
+
+body {
+	background-color: #f2cfe5;
+}
+
+.home {
+	background-image: url("cupcake6.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: right top;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: pink;
+    background-image: none;
+}
+
+button:hover {
+	background-color: pink;
+}
+
+.dropdown-menu > li > a {
+    color: #f074c2;
+}
+
+/* navbar */
+.navbar-default {
+   font-size: floor(@component-font-size-base * 1.067); // ~16px
+   border-radius: @border-radius-large;
+   border: none;
+   background-color: @brand-primary !important;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: @clouds;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: @clouds;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: @clouds;
+    background-color: @brand-secondary;  // Changes color of main button that is currently active.
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: @clouds;
+    background-color: @brand-secondary;  //  Changes color of main menu button once clicked.
+}
+/* caret */
+.navbar-default .navbar-nav > li > a .caret {
+    border-top-color: @clouds;
+    border-bottom-color: @clouds;
+    color: @clouds;
+}
+.navbar-default .navbar-nav > li > a:hover .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
