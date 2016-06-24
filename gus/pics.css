@@ -5,3 +5,5 @@ border: 10px solid black;
 }
 .dalton{border-radius: 0px;
 }
+.moose img{border:0px;
+width:inherit;}
