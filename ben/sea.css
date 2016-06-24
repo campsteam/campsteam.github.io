@@ -30,6 +30,15 @@ input[type=text]{
     width: 80%;
     margin-left:100px;
 }
+input[type=file]
+{
+    margin: auto;
+}
+#get{
+    background-color: black;
+}
+
+
 .center{
     text-align: center;
 }
@@ -39,49 +48,4 @@ input[type=text]{
 
 .hover:hover{
     color: black;
-}
-
-
-.dropbtn {
-    background-color: #ffff00;
-    color: yellow;
-    padding: 16px;
-    border: none;
-    cursor: pointer;
-
-}
-.dropbtn:hover{
-    color: black;
-}
-
-.dropdown {
-    position: relative;
-    display: inline;
-}
-.dropdown:hover{
-    color: black;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffff00;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    height: 54px;
-}
-
-
-.dropdown-content a {
-    color: yellow;
-    font-size: 18px;
-    text-decoration: none;
-    display: inline;
-}
-
-.dropdown:hover .dropdown-content {
-    display: inline;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #ffff00;
 }
