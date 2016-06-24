@@ -6,6 +6,10 @@ h2 {
 	color: #00BFFF;
 }
 
+h6 {
+    color: #f05db9;
+}
+
 body {
 	background-color: #f2cfe5;
 }
@@ -13,7 +17,7 @@ body {
 .home {
 	background-image: url("cupcake6.png");
 	background-repeat: no-repeat;
-	background-size: 65%;
+	background-size: 70%;
 	background-position: right top;
 }
 
