@@ -10,10 +10,26 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+<link rel="stylesheet" href="style.css">
+
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<script>
+$(document).ready(function() {
+  $("#go").click(function() {
+   $(location).attr('href','http://www.google.com/#safe=active&q='+$("#search").val());
+  })
+
+$("#search").keypress(function(e) {
+  if(e.keyCode === 13) {
+    $(location).attr('href','http://www.google.com/#safe=active&q='+$("#search").val());
+    }
+  })
+
+});
+</script>
 </head>
 
 <body>
@@ -21,6 +37,13 @@
 <div class="header">
 <h1>Welcome</h1>
 
+
+  <input type="text" id="search" name="search" placeholder="Search">
+
+
+
+
+<button id="go">Go</button>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -75,6 +98,7 @@
 
 <div class="row">
 <div class="col-sm-12">
+
 <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Dropdown
