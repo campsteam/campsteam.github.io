@@ -2,48 +2,55 @@
 <html>
 <head>
 	<title>Eucalyptus</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="sea.js"></script>
 <link rel="stylesheet" type="text/css" href="sea.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script src="sea.js"></script>
 </head>
 <body background="landscape-images-grey-background-desctopwalls-search-205350.jpg">
 <div class="container-fluid">
 <div class="row">
+
 <div class="col-sm-12 black">
 <h1 class="center">Eucalyptus</h1>
   
 <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Regular
     <span class="caret"></span>
   </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="sea2.html">Image</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="sea3.html">About</a></li>
-  </ul>
-  <br>
-  <br>
-  <br>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="sea2.html">Image</a>
+    <a class="dropdown-item" href="sea3.html">About</a>
+  </div>
 </div>
 
 </div>
+</div> <!-- end row-->
+
+
 <div class="row mountain">
-<div class="col-12">
+<div class="col-sm-12">
   <br><br><br><br><br><br>
 <br><br><br><br><br><br>
   <br>
   <br>
-           <input type="text" id="search" name="search" placeholder="Search..">
-           </input>
+<input type="text" id="search" name="search" placeholder="Search.."></input>
 
 
-</div>
-</div>
+</div> <!-- end col -->
+</div> <!-- end row-->
 </div>
 </body>
 </html>
